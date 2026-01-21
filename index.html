@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Monitor - Pobierz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a; 
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            background: rgba(30, 41, 59, 0.5);
+        }
+        h1 { font-size: 2.8rem; margin-bottom: 10px; color: #38bdf8; letter-spacing: -1px; }
+        p { color: #94a3b8; margin-bottom: 35px; line-height: 1.6; }
+        
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #0f172a;
+            padding: 18px 45px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+        }
+        .btn:hover { 
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
+        }
+
+        .features {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #64748b;
+            list-style: none;
+            padding: 0;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 25px;
+        }
+        .features li { margin: 8px 0; }
+
+        .authors {
+            margin-top: 30px;
+            font-size: 0.75rem;
+            color: #475569;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>JS-parametry-maszyny</h1>
+        <p>Aplikacja do zdalnego monitorowania parametrów maszyny.</p>
+        
+        <a href="Parametry Maszyny Setup 1.0.0.exe" class="btn">Pobierz</a>
+
+        <ul class="features">
+            <li>Monitoring CPU, RAM i GPU</li>
+            <li>Test prędkości Internetu</li>
+            <li>Sprawdzanie publicznego i lokalnego IP</li>
+        </ul>
+
+        <div class="authors">
+            Autorzy: Maksymilian Mniejżyński i Sebastian Półtorak
+        </div>
+    </div>
+
+</body>
+</html>
